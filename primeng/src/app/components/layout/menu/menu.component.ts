@@ -22,7 +22,9 @@ export class MenuComponent implements OnInit {
 
         label: 'Home',
 
-        icon: 'pi pi-home'
+        icon: 'pi pi-home',
+
+        routerLink: '/'
 
       },
 
@@ -60,34 +62,38 @@ export class MenuComponent implements OnInit {
             routerLink: 'signal-ejemplo3'
 
           },
-
           {
+            label: 'ejemplo 4',
+            icon: 'pi pi-pencil',
+            routerLink: 'signal-ejemplo4'
+          },
 
-            label: 'Templates',
+          // {
 
-            icon: 'pi pi-palette',
+          //   label: 'Templates',
+          //   icon: 'pi pi-palette',
 
-            items: [
+          //   items: [
 
-              {
+          //     {
 
-                label: 'Apollo',
+          //       label: 'Apollo',
 
-                icon: 'pi pi-palette'
+          //       icon: 'pi pi-palette'
 
-              },
+          //     },
 
-              {
+          //     {
 
-                label: 'Ultima',
+          //       label: 'Ultima',
 
-                icon: 'pi pi-palette'
+          //       icon: 'pi pi-palette'
 
-              }
+          //     }
 
-            ]
+          //   ]
 
-          }
+          // }
 
         ]
 
