@@ -54,9 +54,10 @@ export class MenuComponent implements OnInit {
 
           {
 
-            label: 'UI Kit',
+            label: 'ejemplo 3',
 
-            icon: 'pi pi-pencil'
+            icon: 'pi pi-pencil',
+            routerLink: 'signal-ejemplo3'
 
           },
 
