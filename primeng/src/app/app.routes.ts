@@ -3,9 +3,10 @@ import {
     SignalEjemplo1Component,
     SignalEjemplo2Component,
     SignalEjemplo3Component,
-    SignalEjemplo4Component
+    SignalEjemplo4Component,
+    SignalEjemplo5Component,
+    SignalEjemplo6Component
 } from './components';
-
 
 export const routes: Routes = [
     {
@@ -28,5 +29,13 @@ export const routes: Routes = [
     {
         path: 'signal-ejemplo4',
         component: SignalEjemplo4Component
+    },
+    {
+        path: 'signal-ejemplo5',
+        component: SignalEjemplo5Component
+    },
+    {
+        path: 'signal-ejemplo6',
+        component: SignalEjemplo6Component
     }
 ];

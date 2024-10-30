@@ -1,0 +1,35 @@
+<h1>Ejemplo 6 - Agregar y remover del carrito de compras</h1>
+
+
+
+<ul>
+
+    @for( product of products(); track product ){
+
+    <li>
+
+        {{ product.name}} - {{product.price}} ---->
+
+        @if(selectedProductsIds().includes(product.id)){
+
+        <p-button label="Remover" severity="danger" (click)="removeFromCart(product)" />
+
+        } @else {
+
+        <p-button label="Agregar" severity="success" (click)="addToCart(product)" />
+
+        }
+
+    </li>
+
+    }
+
+</ul>
+
+
+
+<p>
+
+    Precio total: <b>{{totalPrice()}}</b>
+
+</p>
